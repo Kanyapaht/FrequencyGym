@@ -1,0 +1,93 @@
+body {
+    background-color: #1D1F20;
+    font-size: 62.5%; /* 1rem = 10px */
+    margin: 2rem 4rem;
+  }
+  
+  /* Hide original appearance */
+  .choose-file {
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0.1px;
+    z-index: -1;
+  }
+  
+  /* Style both input field and label */
+  .choose-file + .upload-file {
+    background-color: #cfcfcf;
+    box-sizing: border-box;
+    color: rgb(48, 48, 48);
+    display: block;
+    font-family: Sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 1.5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .choose-file:focus + .upload-file,
+  .choose-file + .upload-file:hover {
+    background-color: #d4af7a;
+  }
+  
+  
+  label.upload-file::before {
+    content: "Choose file";
+  }
+  
+  /* This appears after a file is chosen. */
+  .choose-file:valid + .upload-file::before {
+    content: "1 file chosen";
+  }
+
+  .Convert-audio {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 45px;
+    color: #d4af7a;
+    font-family: Sans-serif;
+  }
+
+  .Conert-Convert {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .cont {
+    position: relative;
+    width: 900px;
+    height: 425px;
+    margin: 0 auto 100px;
+    background: rgb(48, 48, 48);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .custom-select {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: Sans-serif;
+    
+  }
+
+  .cont.s--signup .sign-in {
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.2s;
+    transform: translate3d(640px, 0, 0);
+  }
+
+  .button {
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    position: relative;
+    margin: 20px;
+    
+  }

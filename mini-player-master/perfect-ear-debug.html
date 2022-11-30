@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <title>Perfect Ear Debug</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/perfect-ear-debug.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/fontawesome.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/brands.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/solid.css" />
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid" style="justify-content: left;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">&nbsp&nbsp&nbspPerfect Ear Debug</a>
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Perfect Ear Debug</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid content">
+        <div class="row">
+            <div class="col-md-11" style="padding-left: 9%;">
+                <h1 style="text-align: center; color: #000;">Today</h1>
+            </div>
+            <div class="col-md-1">
+                <a href="d"><h5 style=" color: #876445;">Edit</h5></a>
+            </div>
+        </div>
+         
+        <div class="row progressBar">
+            <div class="col-md-4 col-sm-4">
+                <div class="progress blue">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value"><i class="fa-solid fa-circle-check fa-2xl"></i></div>
+                </div>
+                <div class="row" style="text-align: center; margin-top:3%; color: #000;"><h4>5 <br>Exercises<h4></div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="progress yellow">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value">7K+ P</div>
+                </div>
+                <div class="row" style="text-align: center; margin-top:3%; color: #000;"><h4>7129 <br>Points<h4></div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="progress green">
+                    <span class="progress-left">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <span class="progress-right">
+                        <span class="progress-bar"></span>
+                    </span>
+                    <div class="progress-value"><i class="fa-solid fa-clock-four fa-2xl"></i></div>
+                </div>
+                <div class="row" style="text-align: center; margin-top:3%; color: #000;"><h4>3 <br>Seconds<h4></div>
+            </div>
+        </div>
+        <div class="container button-grid">
+            <div class="row row-cols-2 gx-4 gy-4">
+              <div class="col" style="text-overflow: center;"><a href="../test/index.html"><button type="button" class="btn btn-light btn-lg btn-block"><i class="fa-solid fa-ear-listen fa-2xl" style="padding-right: 5%;"></i>Ear Tranining</button></a></div>
+              <div class="col" style="text-overflow: center;"><a href="../Mymelody/Mymelody.html"><button type="button" class="btn btn-light btn-lg btn-block"><i class="fa-solid fa-music fa-2xl" style="padding-right: 5%;"></i>My Melody</button></a></div>
+              <div class="col" style="text-overflow: center;"><a href="../Theory/Theory.html"><button type="button" class="btn btn-light btn-lg btn-block"><i class="fa-solid fa-book fa-2xl" style="padding-right: 5%;"></i>Theory</button></a></div>
+              <div class="col" style="text-overflow: center;"><a href="../statistics01/index.html"><button type="button" class="btn btn-light btn-lg btn-block"><i class="fa-solid fa-signal fa-2xl" style="padding-right: 5%;"></i>Statistics</button></a></div>
+              <div class="col" style="text-overflow: center;"><a href="../convertaudio/Index.html"><button type="button" class="btn btn-light btn-lg btn-block"><i class="fa-solid fa-arrows-up-down fa-2xl" style="padding-right: 5%;"></i>Transform</button></a></div>
+              
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>

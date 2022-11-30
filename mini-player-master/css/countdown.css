@@ -1,0 +1,15 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+  }
+  .container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  button[disabled]{
+    cursor:no-drop;
+  }
+  span{
+    font-size:2em;
+  }
